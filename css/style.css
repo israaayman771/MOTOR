@@ -1,0 +1,348 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+ul ,a{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    max-width: 1920px;
+    background-color:  #F4F5FB;;
+}
+.container{
+    max-width: 1920px;
+}
+:root{
+    /*color*/
+    --orange:#FF3100;
+    --dark-blue:#18202E;
+    --grey:#C0C4D7;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #18202E;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    gap: 2rem;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+header button{
+    background-color: #18202E;
+    border: 0;
+    padding: 0;
+
+}
+nav a{
+    color: #C0C4D7;
+}
+.home{
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.line{
+    position: absolute;
+}
+.cart{
+    display: flex;
+    position: relative;
+}
+.cart p{
+    border-radius: 20px;
+    background: #FF3100;
+    position: absolute;
+    padding: 1px 7px;
+    color: white;
+    bottom: 8px;
+    left: 13px;
+}
+.bars{
+    gap: 1rem;
+}
+.bars li p{
+    color: white;
+}
+.bars hr{
+    height: 65px;
+    border: 1px solid #283346;
+}
+
+
+
+
+.car-img img{
+    max-width: 100%;
+}
+.frcateg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frcateg ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.frcateg a{
+    color:#A0A6C5 ;
+}
+.frcateg p{
+    text-align: center;
+}
+
+
+
+.deals .container{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+h2 span{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--orange);
+}
+.col-6{
+    width: calc(100% / 12* 6);
+}
+.peices-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.nulla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 26px;
+
+}
+.nulla-p{
+    width: 100%;
+}
+.nulla p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+.col-3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 29px;
+    width: calc(100% / 12* 3);
+    gap: 30px;
+}
+.type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--grey);
+}
+.price{
+    display: flex;
+    gap: 10px;
+}
+.two ,.cost span{
+    color: var(--orange);
+    border-bottom: 2px solid;
+}
+.col-3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 29px;
+}
+.amet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amet-p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.winter ,.kings{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+
+}
+.winter .container ,.kings .container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+h1{
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.new-part ,.dirt{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.new-part span ,.dirt span{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--orange);
+    font-family: 'Montserrat';
+}
+form{
+    display: flex;
+}
+input{
+    padding: 10px 10px;
+    width: 80%;
+    position: relative;
+    background-color: #e7e8ed;
+    border: 0;
+    border-radius: 3px;
+}
+form button{
+    position: absolute;
+    padding: 5px 15px;
+    border: 1px solid #FF3100;
+    background-color: #FF3100;
+    color: white;
+    left: 374px;
+    top: 1580px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 3px;
+}
+form button:hover{
+    background-color: white;
+    color:var(--orange);
+}
+
+
+
+
+
+h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    gap: 1rem;
+}
+h3 span{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--orange);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dirt a{
+    padding: 6px 11px;
+    background-color:var(--orange);
+    width: 30%;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+}
+.dirt a:hover{
+    background-color: white;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
